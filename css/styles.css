@@ -1,6 +1,7 @@
 body {
   max-width: 760px;
-  margin: 25px auto;
+  margin: 0 auto;
+  padding: 25px;
   color: #333333;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
   font-size: 16px;

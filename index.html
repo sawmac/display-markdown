@@ -5,9 +5,23 @@
   <title></title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="markdown-body">
+<body>
+<!--
 <script src="js/stmd.js"></script>
 <script src="js/render.js"></script>
-</script>
+-->
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open('POST', '/markdown');
+
+xhr.send({
+  "text": "Hello world github/linguist#1 **cool**, and #1!",
+  "mode": "markdown",
+});
+
+xhr.onload = function () {
+  document.write(this.responseText);
+}
+</script> 
 </body>
 </html>

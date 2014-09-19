@@ -7,6 +7,8 @@ Renders a markdown file as HTML and displays it. JavaScript loads a markdown fil
 
 * The second -- ```render.js``` -- loads a specified markdown file (default is ```README.md```) via XHR then parses it and renders it with the CommonMark JS library.
 
+[See the demo](http://sawmac.github.io/display-markdown/)
+
 ## Why?
 I wanted a way to display markdown files as HTML on any website -- but in particular, I wanted to be able to use Github pages to render the README.md file for a repo. Mainly so I could use a repo as a way to create installation guides and other how-to's in a single markdown file.
 
